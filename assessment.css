@@ -7,10 +7,16 @@ body {
 }
 button {
     padding: 5px 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: rgb(211, 77, 0);
     color: #FDFFFF;
     border-style: none;
+}
+h3 {
+    padding: 0.25em 0.5em;/*上下 左右の余白*/
+    color: #494949;/*文字色*/
+    background: transparent;/*背景透明に*/
+    border-left: solid 5px #7db4e6;/*左線*/
 }
 input {
     height: 20px;
